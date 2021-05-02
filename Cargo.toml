@@ -1,0 +1,18 @@
+[package]
+name = "hard_sphere_test"
+version = "0.1.0"
+authors = ["Alex Hansen <alex@42layers.io>"]
+edition = "2018"
+
+[[bin]]
+name = "galactic_orbit"
+path = "src/galactic_orbit.rs"
+
+[[bin]]
+name = "circular_orbit"
+path = "src/circular_orbit.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bigbang = "0.0.11"
+fastrand = "1.4"
